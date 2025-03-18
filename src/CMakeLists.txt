@@ -1,3 +1,5 @@
+include_directories(${CMAKE_CURRENT_SOURCE_DIR})
+
 # 添加游戏顶层模块
 add_library(game STATIC
     ${CMAKE_CURRENT_SOURCE_DIR}/app/app.cpp

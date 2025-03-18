@@ -1,9 +1,9 @@
 #include "menu.h"
-#include "../engine/engine.h"
-#include "../engine/renderer.h"
-#include "../appconfig.h"
-#include "../type.h"
-#include "../app_state/game.h"
+#include "engine/engine.h"
+#include "engine/renderer.h"
+#include "app/appconfig.h"
+#include "type.h"
+#include "app_state/game.h"
 
 #include <iostream>
 

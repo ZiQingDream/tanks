@@ -1,6 +1,6 @@
 #include "player.h"
-#include "../appconfig.h"
-#include <SDL2/SDL.h>
+#include "app/appconfig.h"
+#include <SDL.h>
 #include <iostream>
 
 Player::Player()

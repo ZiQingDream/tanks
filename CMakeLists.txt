@@ -8,12 +8,12 @@ set(SDL2_MAIN_DIR "${SDL2_DEV_DIR}/SDL2-2.32.2" CACHE STRING "SDL2 Main Library"
 include_directories(${SDL2_MAIN_DIR}/include)
 link_directories(${SDL2_MAIN_DIR}/lib/x64)
 
-set(SDL2_TTF_DIR "${SDL2_DEV_DIR}/SDL_ttf-2.24.0" CACHE STRING "SDL2 TTF Library")
+set(SDL2_TTF_DIR "${SDL2_DEV_DIR}/SDL2_ttf-2.24.0" CACHE STRING "SDL2 TTF Library")
 include_directories(${SDL2_TTF_DIR}/include)
 link_directories(${SDL2_TTF_DIR}/lib/x64)
 
-set(SDL2_IMAGE_DIR "${SDL2_DEV_DIR}/SDL_image-2.8.8" CACHE STRING "SDL2 Image Library")
-include_directories(${SDL2_MAIN_DIR}/include)
+set(SDL2_IMAGE_DIR "${SDL2_DEV_DIR}/SDL2_image-2.8.8" CACHE STRING "SDL2 Image Library")
+include_directories(${SDL2_IMAGE_DIR}/include)
 link_directories(${SDL2_IMAGE_DIR}/lib/x64)
 
 add_subdirectory(src)

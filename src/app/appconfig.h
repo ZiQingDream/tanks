@@ -3,7 +3,7 @@
 
 #include "objects/player.h"
 #include <iostream>
-#include <SDL2/SDL_rect.h>
+#include <SDL_rect.h>
 #include <vector>
 
 using namespace std;

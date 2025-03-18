@@ -3,7 +3,7 @@
 
 #include "../type.h"
 #include <map>
-#include <SDL2/SDL.h>
+#include <SDL.h>
 
 /**
  * @brief

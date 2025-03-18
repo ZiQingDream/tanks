@@ -1,6 +1,6 @@
 #include "scores.h"
-#include "../engine/engine.h"
-#include "../appconfig.h"
+#include "engine/engine.h"
+#include "app/appconfig.h"
 #include "game.h"
 #include "menu.h"
 

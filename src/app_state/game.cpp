@@ -1,10 +1,10 @@
 #include "game.h"
-#include "../engine/engine.h"
-#include "../appconfig.h"
+#include "engine/engine.h"
+#include "app/appconfig.h"
 #include "menu.h"
 #include "scores.h"
 
-#include <SDL2/SDL.h>
+#include <SDL.h>
 #include <stdlib.h>
 #include <ctime>
 #include <fstream>
