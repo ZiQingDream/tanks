@@ -1,4 +1,16 @@
 #include "appconfig.h"
+#include "nlohmann/json.hpp"
+
+AppConfig::AppConfig()
+{}
+
+AppConfig::AppConfig(const std::string& path)
+{
+    using json = nlohmann::json;;
+    json conf = json::parse(path);
+
+
+}
 
 string AppConfig::texture_path = "../assets/png/texture.png";
 string AppConfig::levels_path = "../assets/levels/";

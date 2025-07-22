@@ -14,6 +14,9 @@ using namespace std;
 class AppConfig
 {
 public:
+    AppConfig();
+    AppConfig(const std::string& path);
+
     /**
      * Ścieżka do tekstury obiektów.
      */
