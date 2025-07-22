@@ -2,6 +2,10 @@ cmake_minimum_required(VERSION 3.10)
 
 project(city_battle)
 
+if(MSVC)
+    add_compile_options(/utf-8)
+endif()
+
 set(SDL2_DEV_DIR "${CMAKE_SOURCE_DIR}/libs/libs-windows-vs" CACHE STRING "SDL2 Develop Package")
 
 set(SDL2_MAIN_DIR "${SDL2_DEV_DIR}/SDL2-2.32.2" CACHE STRING "SDL2 Main Library")
