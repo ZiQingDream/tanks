@@ -1,4 +1,8 @@
 *.o
 Tanks.pro.user.*
 doc
-build
+
+build/
+cmake-build-debug/
+.vscode/
+.idea
